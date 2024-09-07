@@ -1,0 +1,42 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HYSTOONS</title>
+    <link rel="stylesheet" href="{% static '/css/home.css' %}">
+    <link rel="shortcut icon" href="{% static 'img/Marvel_VS_DC.webp' %}">
+</head>
+<body>
+    <div class="TITULO">
+        HYSTOONS
+        
+    </div>
+
+    
+    <div class="search-box">
+        <input class="sh1" type="text" placeholder="Buscar...">
+        <button class="sh2" onclick="buscar()">🔍</button>
+        
+    </div>
+        
+    </div>
+
+    <dialog id="myDialog" class="dialog">
+        <button class="sh3" onclick="cierra_dialog()">X</button>
+        <div>Nombre:  Los Simpsons</div>
+        <div>Año de publicacion:  1989</div>     
+        <div>Creador:  Matt Groening</div>
+        <div>Pais de creacion:  EE.UU.</div>	
+        <div>Temporadas:  34</div>
+        <div>Genero:  Comedia</div>	
+        <div>Descripcion:  Una satira de la sociedad estadounidense a traves de una familia disfuncional.</div>	
+
+
+        <!-- Este es un diálogo vacío -->
+    </dialog>
+
+    <script src="{% static 'js/home.js' %}"></script>
+    
+</body>
