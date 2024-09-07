@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Información sobre Resistencia y Capacitor</title>
+</head>
+<body>
+
+<h1>Información sobre Resistencia y Capacitor</h1>
+
+<button onclick="mostrarInformacion('resistencia')">¿Qué es una resistencia?</button>
+<button onclick="mostrarInformacion('capacitor')">¿Qué es un capacitor?</button>
+
+<div id="informacion"></div>
+
+<script>
+function mostrarInformacion(componente) {
+    var informacion = "";
+    var imagen = "";
+
+    if (componente === 'resistencia') {
+        informacion = "Una resistencia es un componente electrónico diseñado para introducir una resistencia eléctrica determinada en un circuito. Se utilizan para limitar la corriente, dividir la tensión, polarizar transistores, entre otras aplicaciones.";
+        imagen = "resistencia.jpg";
+    } else if (componente === 'capacitor') {
+        informacion = "Un capacitor, también conocido como condensador, es un componente electrónico que almacena carga eléctrica en un campo eléctrico. Se utiliza en circuitos para almacenar energía temporalmente, filtrar señales, acoplar señales, entre otras aplicacio
+
+
